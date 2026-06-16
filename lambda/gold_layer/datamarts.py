@@ -3,8 +3,8 @@ import csv
 import io
 import time
 
-S3_BUCKET = "proj-cloud-argent"
-S3_PREFIX = "evenements_ratp_velib/" 
+S3_BUCKET = "bucket_name"
+S3_PREFIX = "bucket_prefix" 
 DYNAMODB = boto3.resource("dynamodb")
 
 TABLES = {
