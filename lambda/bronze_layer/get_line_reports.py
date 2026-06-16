@@ -9,8 +9,8 @@ API_URL = "https://prim.iledefrance-mobilites.fr/marketplace/v2/navitia/line_rep
 API_KEY = "apikey"
 HEADERS = {"apikey": API_KEY, "Accept": "application/json"}
 
-S3_BUCKET = "proj-cloud-brute"
-S3_PREFIX = "trafic_metro/bronze/streaming"
+S3_BUCKET = "bucket_name"
+S3_PREFIX = "bucket_prefix"
 s3 = boto3.client("s3")
 
 PARIS_TZ = timezone(timedelta(hours=2))
