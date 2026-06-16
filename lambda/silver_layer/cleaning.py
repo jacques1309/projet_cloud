@@ -8,8 +8,8 @@ from zoneinfo import ZoneInfo
 
 s3 = boto3.client("s3")
 
-BUCKET_SOURCE = "proj-cloud-brute"
-BUCKET_DEST = "proj-cloud-argent"
+BUCKET_SOURCE = "bucket_name"
+BUCKET_DEST = "bucket_name"
 
 
 def lire_csv_s3(bucket, key):
