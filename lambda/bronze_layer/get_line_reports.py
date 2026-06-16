@@ -6,7 +6,7 @@ import boto3
 import time
 
 API_URL = "https://prim.iledefrance-mobilites.fr/marketplace/v2/navitia/line_reports/line_reports"
-API_KEY = "dosaOPJv3Tp3lUqyAEgnOo7wLs0SeeIb"
+API_KEY = "apikey"
 HEADERS = {"apikey": API_KEY, "Accept": "application/json"}
 
 S3_BUCKET = "proj-cloud-brute"
