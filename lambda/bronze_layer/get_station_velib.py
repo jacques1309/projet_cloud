@@ -9,8 +9,8 @@ from datetime import timezone, timedelta
 PARIS_TZ = timezone(timedelta(hours=2))
 
 def lambda_handler(event, context):
-    bucket_name = "proj-cloud-brute"
-    api_key = "dosaOPJv3Tp3lUqyAEgnOo7wLs0SeeIb"
+    bucket_name = "bucket_name"
+    api_key = "apikey"
     headers = {"apiKey": api_key}
 
     urls = {
